@@ -30,6 +30,8 @@ jobs:
           # unset → the contact line is simply not rendered.
           VITE_CONTACT_EMAIL: ${{ vars.VITE_CONTACT_EMAIL }}
           VITE_CONTACT_PHONE: ${{ vars.VITE_CONTACT_PHONE }}
+          VITE_CONTACT_LOCATION: ${{ vars.VITE_CONTACT_LOCATION }}
+          VITE_CONTACT_AVAILABILITY: ${{ vars.VITE_CONTACT_AVAILABILITY }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

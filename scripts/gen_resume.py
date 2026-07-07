@@ -7,6 +7,8 @@ from fpdf import FPDF
 #   CONTACT_EMAIL=... CONTACT_PHONE=... python scripts/gen_resume.py
 _EMAIL = os.getenv("CONTACT_EMAIL", "").strip()
 _PHONE = os.getenv("CONTACT_PHONE", "").strip()
+_LOC = os.getenv("CONTACT_LOCATION", "").strip()
+_AVAIL = os.getenv("CONTACT_AVAILABILITY", "").strip()
 
 RED = (200, 22, 40)
 DARK = (28, 28, 33)
@@ -108,7 +110,7 @@ def build(c, out):
 EN = {
     "name": "Rustam Alimbayev",
     "role": "Backend & AI-Systems Developer",
-    "contact": [c for c in [_EMAIL, _PHONE, "github.com/HontoUKI", "Novosibirsk, open to relocation / remote"] if c],
+    "contact": [c for c in [_EMAIL, _PHONE, "github.com/HontoUKI", _LOC, _AVAIL] if c],
     "summaryTitle": "Summary",
     "summary": "Backend developer focused on backend and AI / LLM integration. Core stack: Python, FastAPI, REST, SQL, Git, pytest. I develop M.A.R.I.A., an author-driven local AI-character ecosystem with a backend runtime, memory, perception and ML message-processing. I use AI tools openly as part of the workflow (specs, architecture, review, tests) while owning the final result. Interested in junior positions in backend, AI integration and tooling.",
     "expTitle": "Experience",
@@ -142,7 +144,7 @@ EN = {
 RU = {
     "name": "Алимбаев Рустам",
     "role": "Backend & AI-Systems разработчик",
-    "contact": [c for c in [_EMAIL, _PHONE, "github.com/HontoUKI", "Новосибирск, готов к переезду / удалёнке"] if c],
+    "contact": [c for c in [_EMAIL, _PHONE, "github.com/HontoUKI", _LOC, _AVAIL] if c],
     "summaryTitle": "О себе",
     "summary": "Backend-разработчик с фокусом на backend и AI / LLM-интеграции. Основной стек: Python, FastAPI, REST, SQL, Git, pytest. Разрабатываю M.A.R.I.A. — авторскую локальную AI-character экосистему с backend-рантаймом, памятью, восприятием и ML-обработкой сообщений. Открыто использую ИИ-инструменты как часть процесса (спецификации, архитектура, ревью, тесты), оставляя за собой итоговое решение. Интересуют junior-позиции в backend, AI integration и tooling.",
     "expTitle": "Опыт",

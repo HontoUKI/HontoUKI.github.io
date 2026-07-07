@@ -9,7 +9,6 @@ export const resume = {
     contactTitle: 'Contact',
     contact: {
       github: 'github.com/HontoUKI',
-      location: 'Novosibirsk · open to relocation / remote',
     },
     summaryTitle: 'Summary',
     summary:
@@ -60,7 +59,6 @@ export const resume = {
     contactTitle: 'Контакты',
     contact: {
       github: 'github.com/HontoUKI',
-      location: 'Новосибирск · готов к переезду / удалёнке',
     },
     summaryTitle: 'О себе',
     summary:

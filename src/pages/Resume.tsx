@@ -7,6 +7,8 @@ export default function Resume() {
   // never hardcoded in the repo. Empty → the line is simply not rendered.
   const email = import.meta.env.VITE_CONTACT_EMAIL as string | undefined;
   const phone = import.meta.env.VITE_CONTACT_PHONE as string | undefined;
+  const location = import.meta.env.VITE_CONTACT_LOCATION as string | undefined;
+  const availability = import.meta.env.VITE_CONTACT_AVAILABILITY as string | undefined;
 
   return (
     <section className="section section--page">
@@ -27,7 +29,8 @@ export default function Resume() {
           {email && <a href={`mailto:${email}`}>{email}</a>}
           {phone && <span>{phone}</span>}
           <a href="https://github.com/HontoUKI" target="_blank" rel="noopener noreferrer">{r.contact.github}</a>
-          <span>{r.contact.location}</span>
+          {location && <span>{location}</span>}
+          {availability && <span className="resume__avail">{availability}</span>}
         </div>
 
         <div className="resume__block">
