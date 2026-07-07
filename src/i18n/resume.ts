@@ -8,8 +8,6 @@ export const resume = {
     role: 'Backend & AI-Systems Developer',
     contactTitle: 'Contact',
     contact: {
-      email: 'alimbaevrustamd3@gmail.com',
-      phone: '+7 996 378-99-71',
       github: 'github.com/HontoUKI',
       location: 'Novosibirsk · open to relocation / remote',
     },
@@ -61,8 +59,6 @@ export const resume = {
     role: 'Backend & AI-Systems разработчик',
     contactTitle: 'Контакты',
     contact: {
-      email: 'alimbaevrustamd3@gmail.com',
-      phone: '+7 996 378-99-71',
       github: 'github.com/HontoUKI',
       location: 'Новосибирск · готов к переезду / удалёнке',
     },

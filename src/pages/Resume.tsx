@@ -3,6 +3,10 @@ import { useLang } from '../i18n/LangContext';
 export default function Resume() {
   const { t, lang } = useLang();
   const r = t.resume;
+  // Sensitive contacts are injected at build time from env (VITE_CONTACT_*),
+  // never hardcoded in the repo. Empty → the line is simply not rendered.
+  const email = import.meta.env.VITE_CONTACT_EMAIL as string | undefined;
+  const phone = import.meta.env.VITE_CONTACT_PHONE as string | undefined;
 
   return (
     <section className="section section--page">
@@ -20,8 +24,8 @@ export default function Resume() {
         <div className="section-bar" />
 
         <div className="resume__contact">
-          <a href={`mailto:${r.contact.email}`}>{r.contact.email}</a>
-          <span>{r.contact.phone}</span>
+          {email && <a href={`mailto:${email}`}>{email}</a>}
+          {phone && <span>{phone}</span>}
           <a href="https://github.com/HontoUKI" target="_blank" rel="noopener noreferrer">{r.contact.github}</a>
           <span>{r.contact.location}</span>
         </div>

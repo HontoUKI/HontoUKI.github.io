@@ -25,6 +25,11 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          # Set these as repo Variables to expose them on the public site;
+          # unset → the contact line is simply not rendered.
+          VITE_CONTACT_EMAIL: ${{ vars.VITE_CONTACT_EMAIL }}
+          VITE_CONTACT_PHONE: ${{ vars.VITE_CONTACT_PHONE }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
