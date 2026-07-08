@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
+import Counter from '../components/Counter';
 
 export default function Home() {
   const { t } = useLang();
@@ -15,6 +16,7 @@ export default function Home() {
               {h.hero.hi} <span className="accent">👋</span>
             </h1>
             <p className="hero__tagline">{h.hero.tagline}</p>
+            <p className="hero__aka">{h.hero.aka}</p>
             <div className="hero__cta">
               <Link to="/projects" className="btn btn--primary">{h.hero.ctaProjects}</Link>
               <Link to="/resume" className="btn btn--ghost">{h.hero.ctaResume}</Link>
@@ -53,7 +55,7 @@ export default function Home() {
             <div className="metrics__grid">
               {h.maria.metrics.map(([label, value], i) => (
                 <div className="metric" key={i}>
-                  <span className="metric__value">{value}</span>
+                  <span className="metric__value"><Counter value={value} /></span>
                   <span className="metric__label">{label}</span>
                 </div>
               ))}

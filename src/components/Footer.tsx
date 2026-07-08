@@ -9,6 +9,7 @@ export default function Footer() {
         <div>
           <span className="footer__brand">HontoUKI</span>
           <span className="footer__role"> — {t.footer.tagline}</span>
+          <span className="footer__aka"> · {t.footer.aka}</span>
         </div>
         <div className="footer__links">
           <a href="https://github.com/HontoUKI" target="_blank" rel="noopener noreferrer">GitHub</a>

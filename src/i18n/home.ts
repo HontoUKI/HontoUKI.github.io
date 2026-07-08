@@ -2,6 +2,7 @@ export const home = {
   en: {
     hero: {
       hi: "Hi, I'm Rustam",
+      aka: 'HontoUKI · also known as TosuOKI / YasuOKI',
       role: 'Backend & AI-Systems Developer',
       tagline:
         'I build systems where code, behavior logic, memory, perception and long-term interaction meet.',
@@ -42,6 +43,7 @@ export const home = {
   ru: {
     hero: {
       hi: 'Привет, я Рустам',
+      aka: 'HontoUKI · также известен как TosuOKI / YasuOKI',
       role: 'Backend & AI-Systems разработчик',
       tagline:
         'Строю системы на стыке кода, логики поведения, памяти, восприятия и долгосрочного взаимодействия.',
