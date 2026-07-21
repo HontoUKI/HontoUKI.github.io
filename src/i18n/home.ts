@@ -3,7 +3,7 @@ export const home = {
     hero: {
       hi: "Hi, I'm Rustam",
       aka: 'HontoUKI · also known as TosuOKI / YasuOKI',
-      role: 'Backend & AI-Systems Developer',
+      role: 'AI-native · Backend & AI Systems',
       tagline:
         'I build systems where code, behavior logic, memory, perception and long-term interaction meet.',
       ctaProjects: 'View projects',
@@ -12,9 +12,9 @@ export const home = {
     about: {
       title: 'About',
       lines: [
-        'Backend & AI-systems developer focused on runtimes, memory, perception and long-term interaction.',
-        'I design and sustain large, disciplined codebases — layered architecture, contract boundaries between modules, ADR decisions, feature gates and regression tests.',
-        'I use AI coding agents openly, as accelerators — I keep ownership of the architecture, the decisions and the review.',
+        'AI-native, self-taught developer. I learn by building — M.A.R.I.A. is my personal laboratory, not a product.',
+        'I use AI as leverage to punch above my formal experience, and I can build web apps and their backends with or without it.',
+        'Looking for my first real team — a place to contribute, grow and learn from people, not just my own projects.',
       ],
     },
     maria: {
@@ -44,7 +44,7 @@ export const home = {
     hero: {
       hi: 'Привет, я Рустам',
       aka: 'HontoUKI · также известен как TosuOKI / YasuOKI',
-      role: 'Backend & AI-Systems разработчик',
+      role: 'AI-native · Backend & AI Systems',
       tagline:
         'Строю системы на стыке кода, логики поведения, памяти, восприятия и долгосрочного взаимодействия.',
       ctaProjects: 'Проекты',
@@ -53,9 +53,9 @@ export const home = {
     about: {
       title: 'Обо мне',
       lines: [
-        'Backend & AI-systems разработчик — рантаймы, память, восприятие и долгосрочное взаимодействие.',
-        'Проектирую и веду крупные дисциплинированные кодовые базы — слоистая архитектура, контрактные границы модулей, ADR-решения, feature-гейты и регрессионные тесты.',
-        'Открыто использую ИИ-агентов как ускорители — архитектура, решения и ревью остаются за мной.',
+        'AI-native разработчик, самоучка. Учусь через практику — M.A.R.I.A. это моя личная лаборатория, а не продукт.',
+        'Использую ИИ как рычаг, чтобы делать больше своего формального опыта, и умею собирать веб-приложения и бэкенды к ним — с ИИ или без.',
+        'Ищу первый нормальный командный опыт — место, где можно вносить вклад, расти и учиться у людей, а не только у своих проектов.',
       ],
     },
     maria: {

@@ -109,10 +109,10 @@ def build(c, out):
 
 EN = {
     "name": "Rustam Alimbayev",
-    "role": "Backend & AI-Systems Developer",
+    "role": "AI-native Backend & AI-Systems Developer",
     "contact": [c for c in [_EMAIL, _PHONE, "github.com/HontoUKI", _LOC, _AVAIL] if c],
     "summaryTitle": "Summary",
-    "summary": "Backend developer focused on backend and AI / LLM integration. Core stack: Python, FastAPI, REST, SQL, Git, pytest. I develop M.A.R.I.A., an author-driven local AI-character ecosystem with a backend runtime, memory, perception and ML message-processing. I use AI tools openly as part of the workflow (specs, architecture, review, tests) while owning the final result. Interested in junior positions in backend, AI integration and tooling.",
+    "summary": "AI-native, self-taught developer, early in my career. Core stack: Python, FastAPI, REST, SQL, Git, pytest. I use AI as leverage to build and drive systems bigger than my formal experience, and I can build web apps and their backends with or without it. My main project, M.A.R.I.A., is a personal laboratory: an author-driven local AI-character runtime with memory, perception and ML message-processing. Looking for a first real team experience in backend / AI integration, where I can contribute and grow.",
     "expTitle": "Experience",
     "experience": [
         {"role": "Backend / AI Integration Developer", "org": "Personal / Open-source, HontoUKI", "period": "Jan 2026 - present",
@@ -143,10 +143,10 @@ EN = {
 
 RU = {
     "name": "Алимбаев Рустам",
-    "role": "Backend & AI-Systems разработчик",
+    "role": "AI-native Backend & AI-Systems разработчик",
     "contact": [c for c in [_EMAIL, _PHONE, "github.com/HontoUKI", _LOC, _AVAIL] if c],
     "summaryTitle": "О себе",
-    "summary": "Backend-разработчик с фокусом на backend и AI / LLM-интеграции. Основной стек: Python, FastAPI, REST, SQL, Git, pytest. Разрабатываю M.A.R.I.A. — авторскую локальную AI-character экосистему с backend-рантаймом, памятью, восприятием и ML-обработкой сообщений. Открыто использую ИИ-инструменты как часть процесса (спецификации, архитектура, ревью, тесты), оставляя за собой итоговое решение. Интересуют junior-позиции в backend, AI integration и tooling.",
+    "summary": "AI-native разработчик, самоучка, в начале пути. Основной стек: Python, FastAPI, REST, SQL, Git, pytest. Использую ИИ как рычаг, чтобы строить и вести системы крупнее моего формального опыта, и умею собирать веб-приложения и бэкенды к ним, с ИИ или без. Мой главный проект M.A.R.I.A. — личная лаборатория: авторский рантайм локального AI-персонажа с памятью, восприятием и ML-обработкой сообщений. Ищу первый нормальный командный опыт в backend / AI-интеграции, где можно вносить вклад и расти.",
     "expTitle": "Опыт",
     "experience": [
         {"role": "Backend / AI Integration Developer", "org": "Личные проекты / Open-source, HontoUKI", "period": "Январь 2026 - наст. время",
